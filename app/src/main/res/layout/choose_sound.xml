@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:background="#393434"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingTop="10dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:paddingLeft="15dp"
+        android:text="Sound"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/sone"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="#2E2929"
+        android:gravity="center"
+        android:tag="1"
+        android:text="Sound_default"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <TextView
+        android:id="@+id/stwo"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="#2E2929"
+        android:gravity="center"
+        android:tag="2"
+        android:text="Sound_1"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <TextView
+        android:id="@+id/sthree"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="#2E2929"
+        android:gravity="center"
+        android:tag="3"
+        android:text="Sound_2"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <TextView
+        android:id="@+id/sFour"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="#2E2929"
+        android:gravity="center"
+        android:tag="4"
+        android:text="Sound_3"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:gravity="fill_vertical|end"
+        android:paddingRight="10dp"
+        android:text="cancel"
+        android:textColor="#00ACC1" />
+</LinearLayout>
